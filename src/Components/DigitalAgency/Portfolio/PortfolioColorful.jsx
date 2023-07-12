@@ -8,10 +8,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
 
 // Components
-import Filter from '../../Portfolio/Filter';
+import Filter from '../../Global/Portfolio/Filter';
 
 // Data
-import { portfolioColorfulData } from './PortfolioData'
+import { portfolioColorfulData } from '../../Global/Portfolio/PortfolioData'
 
 const PortfolioColorful = (props) => {
     const portfolioWrapper = useRef()

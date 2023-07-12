@@ -24,7 +24,7 @@ import SideButtons from "../Components/Global/SideButtons";
 import { InteractiveBannersData01 } from '../Components/DigitalAgency/InteractiveBanners/InteractiveBannersData'
 import { TestimonialsCarouselData7 } from '../Components/DigitalAgency/TestimonialCarousel/TestimonialsCarouselData';
 import { CounterData03 } from '../Components/Global/Counters/CounterData'
-import { portfolioColorfulData } from '../Components/DigitalAgency/Portfolio/PortfolioData';
+import { portfolioColorfulData } from '../Components/Global/Portfolio/PortfolioData';
 import { blogData } from "../Components/DigitalAgency/Blogs/BlogData";
 import InViewPort from '../Components/Global/InViewPort';
 

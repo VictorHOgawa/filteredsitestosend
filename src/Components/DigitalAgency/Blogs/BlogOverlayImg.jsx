@@ -6,8 +6,8 @@ import { PropTypes } from "prop-types";
 import { m } from 'framer-motion';
 
 // Components
-import Pagination from "../../Blogs/HelperComponents/Pagination";
-import Filter from "../../Portfolio/Filter";
+import Pagination from "../../Global/Blogs/HelperComponents/Pagination";
+import Filter from "../../Global/Portfolio/Filter";
 
 // Data
 import { blogData } from "./BlogData";
