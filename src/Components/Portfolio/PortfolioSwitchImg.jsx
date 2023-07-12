@@ -9,7 +9,7 @@ import { m } from "framer-motion";
 import Filter from './Filter';
 
 // Data
-import { portfolioSwitchImgData } from './PortfolioData'
+import { portfolioSwitchImgData } from '../DigitalAgency/Portfolio/PortfolioData'
 
 const PortfolioSwitchImg = (props) => {
     const portfolioWrapper = useRef()
