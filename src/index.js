@@ -8,12 +8,17 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import { LazyMotion, domMax } from "framer-motion";
 
 // css
-import "./Assets/css/icons.css"
-import "./Assets/css/global.css"
-import "./Assets/css/pages.css"
-import "./index.scss"
+import "./Assets/css/icons.css";
+import "./Assets/css/global.css";
+import "./Assets/css/pages.css";
+import "./index.scss";
+
+import CreativeAgencyPage from "./Sites/CreativeAgency";
 import DigitalagencyPage from "./Sites/DigitalAgency";
-// import MarketingAgencyPage from "./Sites/MarketingAgency"
+import FurnitureShopPage from "./Sites/FurnitureShop";
+import InteractiveportfolioPage from "./Sites/InteractivePortfolio";
+import MarketingAgencyPage from "./Sites/MarketingAgency";
+import PhotographyPage from "./Sites/Photography";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,12 +28,18 @@ root.render(
         {/* <App /> */}
 
         {/* Alterar qual site aparece */}
-        <DigitalagencyPage />
-        {/* <MarketingAgencyPage /> */}
-        {/* <InteractiveportfolioPage /> */}
+
+        {/* <DigitalagencyPage /> */}
+
         {/* <CreativeAgencyPage /> */}
-        {/* <PhotographyPage /> */}
+
         {/* <FurnitureShopPage /> */}
+
+        {/* <InteractiveportfolioPage /> */}
+
+        {/* <MarketingAgencyPage /> */}
+
+        <PhotographyPage />
       </BrowserRouter>
     </ParallaxProvider>
   </LazyMotion>
